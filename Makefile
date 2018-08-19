@@ -6,7 +6,7 @@
 all: build
 
 build:
-	go build -o bin/tidis-server cmd/server/*
+	go build -o bin/tidis-server src/cmd/server/*
 
 # vim:ft=make
 #

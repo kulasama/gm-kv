@@ -1,0 +1,25 @@
+package: .
+import:
+- package: github.com/BurntSushi/toml
+  version: ^0.3.0
+- package: github.com/deckarep/golang-set
+  version: ^1.7.0
+- package: github.com/pingcap/tidb
+  version: ^2.1.0-beta
+  subpackages:
+  - kv
+  - store/tikv
+- package: github.com/yongman/go
+  subpackages:
+  - goredis
+  - log
+  - util
+- package: github.com/yongman/tidis
+  version: ^0.0.1
+  subpackages:
+  - config
+  - server
+  - store
+  - store/tikv
+  - terror
+  - tidis
